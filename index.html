@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Calculator</title>
+    <link rel="stylesheet" href="Rangeslider.css"/>
+    <link rel="icon" type="image/x-icon" href="high.jpg"/>
+</head>
+<body>
+    
+<form name=calc  method="post" >
+   <div class="container">
+    <h2>Range Slide Calculator</h2>
+    <div class="slidecontainer">
+<h3>Choose Loan Amount</h3>
+        <input type="range" name="loan" class="tutorial" min="1000" max="1000000" value="10"  id="tp" placeholder=" E"  />
+        <p class="sliderange"> Loan Amount : <span id="amount"  ></span></p>
+    </div>
+
+
+    <div class="slidecontainer">
+
+        <h3>Choose Interest Rate</h3>
+
+        <input type="range" name="rate" class="tutorial" min="1" max="10" value="1" id="tq" placeholder=" E"  />
+        <p class="sliderange"> Interest Rate: <span id="rate"></span> </p>
+    </div>
+
+
+
+    <div class="slidecontainer">
+
+        <h3>Choose Tenure of Months</h3>
+        <input type="range" class="tutorial" name="month" min="1" max="200" value="1"  id="tz" placeholder=" E"  />
+        <p class="sliderange"> No.of Months: <span id="months"  ></span></p>
+    </div>
+
+
+    <div class="Value">
+
+        <h3>Monthly Payment:</h3>
+
+        <input type="text" name=pay size="10" disabled />
+
+        <button type="submit" onclick='showpay()'>Calculate</button>
+
+
+        <h3>Total Payment:</h3>
+
+        <input type="text"  name=total size="10" disabled />
+
+        <button type="submit" onclick='totalpay()'>Calculate</button>
+       
+    </div>
+
+</div>
+</form>
+
+
+<script src="Rangeslider.js"></script>
+   
+      
+     
+       
+      
+     
+
+
+    
+
+
+</body>
+</html>

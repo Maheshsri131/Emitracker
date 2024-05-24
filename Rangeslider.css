@@ -1,0 +1,66 @@
+.container{
+
+   background-color: rgb(125, 227, 15);
+   width: 100%;
+   height: 100%;
+}
+
+
+
+.tutorial {
+   
+    width: 40%;
+    height: 10px;
+    background: #f15010;
+    opacity: 0.8;
+ }
+ .tutorial:hover {
+    opacity: 0.5;
+ }
+ .tutorial::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    background: #31de54;
+    cursor: pointer;
+ }
+
+ .p{
+
+    color:#6C3483;
+ }
+
+ .Value{
+
+    display: flex;
+    padding:  30px;
+    margin:10px;
+ }
+
+
+ .Value input{
+
+   height: 15px;
+   width:100px;
+   padding: 10px;
+   margin: 10px;
+   display: flex;
+  
+ }
+
+ .Value button{
+
+   height: 25px;
+   width:70px;
+   margin-top: 17px;
+
+ }
+
+ 
+
+
+ .numberbox{
+    width:200px;
+    height: 10px;
+ }
